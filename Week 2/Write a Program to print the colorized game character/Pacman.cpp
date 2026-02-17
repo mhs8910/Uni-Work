@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+main()
+{
+system("color B0");
+cout<<"       .::---::."<<endl;
+cout<<"    .------------."<<endl;
+cout<<"  .----------------."<<endl;
+cout<<" .---------------:."<<endl;
+cout<<" :---------- ::."<<endl;
+cout<<"  :-------------:.."<<endl;
+cout<<"    .---------------."<<endl;
+cout<<"       .--------."<<endl;
+cout<<"          .---."<<endl;
+}
