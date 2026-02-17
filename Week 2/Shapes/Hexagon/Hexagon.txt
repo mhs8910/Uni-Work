@@ -1,0 +1,14 @@
+#include<iostream>
+using namestream std;
+main()
+{
+cout<<"          *"<<endl;
+cout<<"        *   *"<<endl;
+cout<<"      *       *"<<endl;
+cout<<"    *           *"<<endl;
+cout<<"    *           *"<<endl;
+cout<<"    *           *"<<endl;
+cout<<"      *       *"<<endl;
+cout<<"        *   *"<<endl;
+cout<<"          *"<<endl;
+}
