@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-main();
+main()
 {
 cout<<"';-.	      ---'\n";
 cout<<"  '.'!_...._/'.-''\n";
@@ -10,7 +10,7 @@ cout<<"   |)  .     ()! /   _.'\n";
 cout<<"    |  -'-      ; '. <\n";
 cout<<"    ;.__      ,;|  > |\n";
 cout<<"   / ,     / ,  |.-'.-'\n";
-cout<<"\n";  (_/     (_/ .;|.<'
+cout<<"(_/     (_/ .;|.<'\n";
 cout<<"    !     ,     ;-'\n";
 cout<<"    >     !    /\n";
 cout<<"   (_,-''>  . '\n";
