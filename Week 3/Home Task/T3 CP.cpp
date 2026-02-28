@@ -2,19 +2,18 @@
 using namespace std;
 main()
 {
-    int final_velocity, initial_velocity, acceleration, time;
+    int i, a, t, f;
 
-    cout<<"Enter the initial velocity : ";
-    cin>>initial_velocity;
+    cout<<"Enter the initial velocity of the body : ";
+    cin>>i;
 
-    cout<<"Enter the acceleration : ";
-    cin>>acceleration;
-    
-    cout<<"Enter the time : ";
-    cin>>time;
+    cout<<"Enter the acceleration of the body : ";
+    cin>>a;
 
-    final_velocity=initial_velocity+(acceleration*time);
+    cout<<"Enter the time taken by the body : ";
+    cin>>t;
 
-    cout<<"The final velocity of the body is : "<<final_velocity;
+    f=i+(a*t);
 
+    cout<<"The final velocity of the body is : "<<f ;
 }
