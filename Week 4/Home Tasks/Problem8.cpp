@@ -4,410 +4,171 @@ main()
 {
     int number;
 
-    cout<<"Enter the Number : ";
+    cout<<"Enter the number : ";
     cin>>number;
 
     if (number==0)
     {
-        cout<<"zero";
-    }if (number==1)
+        cout<<"Zero";
+    }
+    if (number==1)
     {
-        cout<<"one";
+        cout<<"One";
     }
     if (number==2)
     {
-        cout<<"two";
+        cout<<"Two";
     }
     if (number==3)
     {
-        cout<<"three";
+        cout<<"Three";
     }
     if (number==4)
     {
-        cout<<"four";
+        cout<<"Four";
     }
     if (number==5)
     {
-        cout<<"five";
+        cout<<"Five";
     }
     if (number==6)
     {
-        cout<<"six";
+        cout<<"Six";
     }
     if (number==7)
     {
-        cout<<"seven";
+        cout<<"Seven";
     }
     if (number==8)
     {
-        cout<<"eight";
+        cout<<"Eight";
     }
-     if (number==9)
+    if (number==9)
     {
-        cout<<"nine";
-    }   
+        cout<<"Nine";
+    }
     if (number==10)
     {
-        cout<<"ten";
+        cout<<"Ten";
     }
     if (number==11)
     {
-        cout<<"eleven";
+        cout<<"Eleven";
     }
     if (number==12)
     {
-        cout<<"twelve";
+        cout<<"Twelve";
     }
     if (number==13)
     {
-        cout<<"thirteen";
+        cout<<"Thirteen";
     }
     if (number==14)
     {
-        cout<<"fourteen";
+        cout<<"Fourteen";
     }
     if (number==15)
     {
-        cout<<"fifteen";
+        cout<<"Fifteen";
     }
     if (number==16)
     {
-        cout<<"sixteen";
+        cout<<"Sixteen";
     }
     if (number==17)
     {
-        cout<<"seventeen";
+        cout<<"Seventeen";
     }
     if (number==18)
     {
-        cout<<"eighteen";
+        cout<<"Eighteen";
     }
     if (number==19)
     {
-        cout<<"nineteen";
+        cout<<"Nineteen";
     }
-    if (number==20)
+
+    int ones=number%10;
+    int tens=number/10;
+
+    if(tens==2)
     {
-        cout<<"twenty";
+        cout<<"Twenty ";
     }
-    if (number=0)
+    if(tens==3)
     {
-        cout<<"twenty one";
+        cout<<"Thirty ";
     }
-    if (number=0)
+    if(tens==4)
     {
-        cout<<"zero";
+        cout<<"Fourty ";
     }
-    if (number=0)
+    if(tens==5)
     {
-        cout<<"zero";
+        cout<<"Fifty ";
     }
-    if (number=0)
+    if(tens==6)
     {
-        cout<<"zero";
+        cout<<"Sixty ";
     }
-    if (number=0)
+    if(tens==7)
     {
-        cout<<"zero";
+        cout<<"Seventy ";
     }
-    if (number=0)
+    if(tens==8)
     {
-        cout<<"zero";
+        cout<<"Eighty ";
     }
-    if (number=0)
+    if(tens==9)
     {
-        cout<<"zero";
+        cout<<"Ninety ";
     }
-    if (number=0)
+    if(tens==10)
     {
-        cout<<"zero";
+        cout<<"Hundred";
     }
-    if (number=0)
+    if (number==0)
     {
-        cout<<"zero";
+        cout<<"Zero";
     }
-    if (number=0)
+    if (ones==1)
     {
-        cout<<"zero";
+        cout<<"One";
     }
-    if (number=0)
+    if (ones==2)
     {
-        cout<<"zero";
+        cout<<"Two";
     }
-    if (number=0)
+    if (ones==3)
     {
-        cout<<"zero";
+        cout<<"Three";
     }
-    if (number=0)
+    if (ones==4)
     {
-        cout<<"zero";
+        cout<<"Four";
     }
-    if (number=0)
+    if (ones==5)
     {
-        cout<<"zero";
+        cout<<"Five";
     }
-    if (number=0)
+    if (ones==6)
     {
-        cout<<"zero";
+        cout<<"Six";
     }
-    if (number=0)
+    if (ones==7)
     {
-        cout<<"zero";
+        cout<<"Seven";
     }
-    if (number=0)
+    if (ones==8)
     {
-        cout<<"zero";
+        cout<<"Eight";
     }
-    if (number=0)
+    if (ones==9)
     {
-        cout<<"zero";
+        cout<<"Nine";
     }
-    if (number=0)
+    if(number==100)
     {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
-    }
-    if (number=0)
-    {
-        cout<<"zero";
+        cout<<"Hundred";
     }
 }
