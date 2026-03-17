@@ -1,23 +1,35 @@
 #include <iostream>
 using namespace std;
-
 int main()
 {
-    int num1, num2, gcd, lcm;
+    string name1, name2, name3;
+    int age1, age2, age3;
 
-    cout<<"Enter two numbers: ";
-    cin>>num1>>num2;
+    cout << "Enter name of first brother: ";
+    cin >> name1;
+    cout << "Enter age: ";
+    cin >> age1;
 
-    for (int i=1; i<=num1 && i<=num2; i++)
+    cout << "Enter name of second brother: ";
+    cin >> name2;
+    cout << "Enter age: ";
+    cin >> age2;
+
+    cout << "Enter name of third brother: ";
+    cin >> name3;
+    cout << "Enter age: ";
+    cin >> age3;
+
+    if (age1 <= age2 && age1 <= age3)
     {
-        if(num1%i==0 && num2%i==0)
-        {
-            gcd=i; 
-        }
+        cout << "Youngest brother is: " << name1 << endl;
     }
-
-    lcm=(num1*num2)/gcd;
-
-    cout<<"GCD (HCF) = "<<gcd<< endl;
-    cout<<"LCM = "<<lcm<< endl;
+    else if (age2 <= age1 && age2 <= age3)
+    {
+        cout << "Youngest brother is: " << name2 << endl;
+    }
+    else
+    {
+        cout << "Youngest brother is: " << name3 << endl;
+    }
 }
