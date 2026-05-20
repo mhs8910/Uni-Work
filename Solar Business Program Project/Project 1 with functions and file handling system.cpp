@@ -108,7 +108,7 @@ void addCustomer()
 
     int newIndex = customerCount;
 
-    cin.ignore();
+    
 
     cout << "Enter Customer Name: ";
     getline(cin, customerName[newIndex]);
@@ -181,7 +181,7 @@ void searchCustomer()
 {
     system("cls");
 
-    cin.ignore();
+    
 
     string phone;
 
@@ -227,7 +227,7 @@ void deleteCustomer()
 {
     system("cls");
 
-    cin.ignore();
+    
 
     string phone;
 
@@ -361,7 +361,7 @@ void addProduct()
 
     int newIndex = productCount;
 
-    cin.ignore();
+    
 
     cout << "Enter Product Name: ";
     getline(cin, productName[newIndex]);
@@ -429,7 +429,7 @@ void createOrder()
 
     int newIndex = orderCount;
 
-    cin.ignore();
+    
 
     cout << "Enter Customer Name: ";
     getline(cin, orderCustomerName[newIndex]);
@@ -685,7 +685,7 @@ void customerPortal()
 {
     system("cls");
 
-    cin.ignore();
+    
 
     string name;
     int capacity;
